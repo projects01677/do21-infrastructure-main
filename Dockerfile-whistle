@@ -1,0 +1,22 @@
+FROM node:18-alpine3.18
+ARG TARGETPLATFORM
+ARG TARGETARCH
+ARG TARGETVARIANT
+
+RUN apk update && apk add curl openssl aws-cli && \
+    rm -rf /var/cache/apk/*
+
+ENV PATH=$PATH:/root/.pulumi/bin
+ARG PULUMI_VERSION="3.78.1"
+RUN apk add libc6-compat tzdata && \
+    curl -fsSL https://get.pulumi.com/ | sh -s -- --version $PULUMI_VERSION
+
+ARG KUBECTL_VERSION="v1.27.4"
+RUN curl -o /bin/kubectl -L https://storage.googleapis.com/kubernetes-release/release/$KUBECTL_VERSION/bin/linux/${TARGETARCH}/kubectl && \
+    chmod +x /bin/kubectl
+
+RUN apk add --update docker openrc && \
+    rc-update add docker boot
+
+WORKDIR /code
+ENTRYPOINT ["sh"]

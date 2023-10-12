@@ -1,0 +1,10 @@
+secretsprovider: awskms://alias/pulumi-devops-infra
+encryptedkey: AQICAHjGDO5OykPp7m5PincF0COn09ybD1NwUuQB0kvbuKRxxAEKeh0T3PTbkoG/8B8tri3hAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMy8aUf0vnuL5yWncGAgEQgDsjRAYC0NurUMdZNb1mI4SddvPUKOA6yzuuXUg2Z+x1aF23Sy0uh+wu4FRn+TQTrDp26BAsZdGNql7ztw==
+config:
+  aws:allowedAccountIds:
+  - 497842599452
+  aws:assumeRole:
+    roleArn: arn:aws:iam::497842599452:role/OrganizationAccountAccessRole
+  aws:region: us-east-1
+  infrastructure:awsAccount: kinshipDataPlatform
+  infrastructure:environment: preprod

@@ -1,0 +1,15 @@
+secretsprovider: awskms://alias/pulumi-devops-infra
+encryptedkey: AQICAHjGDO5OykPp7m5PincF0COn09ybD1NwUuQB0kvbuKRxxAGuvPzkpRIQjrp3PXAvj+ODAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMfS9DGKe8NzBntZQoAgEQgDtuuDbHDaGkNRTqu2hvsfdFS1KDDytvRZbV39yQqGgjulqYfvr+8qGPenInSXLOmErco1/hLk1F/E1Edg==
+config:
+  infrastructure:newrelicAccountId: "3511207"
+  infrastructure:newrelicAccountName: GoodFriend
+  infrastructure:newrelicAccountRegion: US
+  infrastructure:newrelicOrigBrowserKey:
+    secure: v1:1UfJ8MNoIgZS/foB:67UNVKebO33yVVJKwig22ewaBJFehA4KhRD7fAnwtiY4u+/N2ju7YQ==
+  infrastructure:newrelicOrigIngestKey:
+    secure: v1:QRMe+rfKlcRUBQLg:+7W+agev+n0wS+2NkEKx4/OZsIU2MtzkD1rzqBJe1hkBNUZuW4kc7nrHsdczQ0tqcVMy41kKk8c=
+  infrastructure:newrelicUserId: "1002656043"
+  infrastructure:slackDevOpsWebhook:
+    secure: v1:zupk40SrqgFl3F4R:cYHc+mZicXfb/itZb0jjRb1k/ITWaS/74qOdHwDVXsA4FNORJU9KGpGGk/MYZ+/VBqnU0TBjqqtaLC5kZmQ00OxNQ95n8JscNKje9XQl4V+w3tF+hwOdOOFO6yitbEE=
+  newrelic:apiKey:
+    secure: v1:KQtl1m9D00LwMCGC:/ox8x5zLxSTI/VmccMsPrtTlgW1Tsogtiuj9V1bmtT0PNxnyvVUWYNvwrErHeJOI

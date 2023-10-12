@@ -1,0 +1,5 @@
+secretsprovider: awskms://alias/pulumi-devops-infra
+encryptedkey: AQICAHjGDO5OykPp7m5PincF0COn09ybD1NwUuQB0kvbuKRxxAEZj3GhY6iViQKiO/3w2adtAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQM6MsHL+We8iDN7Av4AgEQgDs71OPu36F33NGirXzsXyknALl0mtKWAr5+qCwd2ko0AQOYecGxqW+GBiOZE/r1AR/m2BCr7qqUaPb4GA==
+config:
+  aws:region: us-east-1
+  infrastructure:account: aapOmega

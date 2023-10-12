@@ -1,0 +1,5 @@
+secretsprovider: awskms://alias/pulumi-devops-infra
+encryptedkey: AQICAHjGDO5OykPp7m5PincF0COn09ybD1NwUuQB0kvbuKRxxAG6OvEzQNpkMILiayy7YmDMAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMiXVonznD9wLvBcy1AgEQgDs/qPnOL+7dfKiKQLdywLG0K483ndb+LbaAcyoyZdxLI3N4ZsLLiFJslOXQhQPgRzSXt49uHIdHsu+VYA==
+config:
+  aws:region: us-east-1
+  infrastructure:account: theWildest

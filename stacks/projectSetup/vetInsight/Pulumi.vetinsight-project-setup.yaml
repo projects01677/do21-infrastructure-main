@@ -1,0 +1,8 @@
+secretsprovider: awskms://alias/pulumi-devops-infra
+encryptedkey: AQICAHjGDO5OykPp7m5PincF0COn09ybD1NwUuQB0kvbuKRxxAE15lvNUCZi1EbojUPUpWrSAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMjiIoc+vZx7eV904kAgEQgDuxn4wj+ER5WWZy6opfRr4LFdX77AWJGOR1GbJJ8hTkNGAb9F/f5SJ5PyPUc9PjcgvPgG+2eIcwDSk9Sg==
+config:
+  aws:allowedAccountIds:
+  - "672673849622"
+  aws:assumeRole:
+    roleArn: arn:aws:iam::672673849622:role/OrganizationAccountAccessRole
+  aws:region: us-east-1

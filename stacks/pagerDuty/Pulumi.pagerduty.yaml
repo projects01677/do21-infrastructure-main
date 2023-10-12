@@ -1,0 +1,5 @@
+secretsprovider: awskms://alias/pulumi-devops-infra
+encryptedkey: AQICAHjGDO5OykPp7m5PincF0COn09ybD1NwUuQB0kvbuKRxxAH+LKl105R1GxcMnjDwqhtzAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMzq9b+MfZx4Fojbd/AgEQgDu0Mobnuk91r8gqWM6BTD+daD8F5YDoDB7R26+nCcZOq0Y3W1SmW31xqitQpXRKePnQlDZNZL34hW67Sw==
+config:
+  pagerduty:token:
+    secure: v1:wjm3JZXertUXboQ7:ATRGEg0p3Lk/ZRLjW0QFPf9QBlA4oX8q5FPr5jSD5dmKvbRB

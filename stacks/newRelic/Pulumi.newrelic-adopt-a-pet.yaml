@@ -1,0 +1,18 @@
+secretsprovider: awskms://alias/pulumi-devops-infra
+encryptedkey: AQICAHjGDO5OykPp7m5PincF0COn09ybD1NwUuQB0kvbuKRxxAHDntjLm88VEKfar7WStEHBAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMGc7k+Uo5TViS6kUzAgEQgDtbyQBd09yJeI/W7RtzuABM+qwWHZ24hUeIyAWtjCo1LA7TyxEJYRCxQdepmWS+WBCNQrd9GyYcyKJXGA==
+config:
+  aws:allowedAccountIds:
+  - "419697633145"
+  aws:region: us-east-1
+  infrastructure:newrelicAccountId: "3401329"
+  infrastructure:newrelicAccountName: Adopt-a-Pet
+  infrastructure:newrelicAccountRegion: US
+  infrastructure:newrelicOrigBrowserKey:
+    secure: v1:ek1VWTmKXV2l/vYG:pcidx/375QJntqW9AHj4bu0h2uFR6n2DeKxrUbFugQkwZ/fdld6feg==
+  infrastructure:newrelicOrigIngestKey:
+    secure: v1:f3St1WQUSmjUelJG:0HW4QJxfLqlKYAGipZSlXoLT89+PbruNt6BdFvYfnOrufGFEcPEN8pm1lIFYsGmX+vjdbCSOOGw=
+  infrastructure:newrelicUserId: "1002656043"
+  infrastructure:slackDevOpsWebhook:
+    secure: v1:l4e9VszkZ8hqt9w9:IrumX8Muy3eVXVWXeKn/ds5Z0lSQ9V4r6uw5jyYq0Tma3xbNIAS6BL2/X/C4ch8bF+ICNoDzyXsSfZLFpLA1cm69yGhqppIM8lxd1WYgT3xMzuNN/ufPdJrdUsRPmAg=
+  newrelic:apiKey:
+    secure: v1:gKuf2SOOoZSDY61v:9Yar8kMIx4RfA9xdEFnFBGdCm6xHRTIkrLzadZYtQgZG7m6NjyUMMYx20GnniQ2L

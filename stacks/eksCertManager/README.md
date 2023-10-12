@@ -1,0 +1,1 @@
+The reason why this is in its own stack instead of part of the `eks` stack is because the yaml file is HUGE, causing the checkpoint file to be huge, which causes `pulumi up` to slow down by about 2 minutes.

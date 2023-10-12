@@ -1,0 +1,53 @@
+# 0. Manually create 'child' NewRelic account, this will generate the account ID and Ingest/Browser keys.
+
+# 1. Init stack for NewRelic account:
+# pulumi stack init "newrelic-<ACCOUNTNAME>" --secrets-provider="awskms://alias/pulumi-devops-infra"
+# This will generate the two lines:
+secretsprovider: awskms://alias/pulumi-devops-infra
+encryptedkey: <encrypted main key>
+
+# 2. Select newly created stack
+# pulumi stack select newrelic-<ACCOUNTNAME>
+
+# 3. Manually add config:
+config:
+  # NewRelic account ID, can be obtained in NewRelic: https://onenr.io/08wo1vYxpjx
+  infrastructure:newrelicAccountId: "3511214"
+
+  # AWS account name
+  infrastructure:newrelicAccountName: VetInsight
+  infrastructure:newrelicAccountRegion: US
+
+# 4. Add secrets:
+  #NewRelic Ingest License and Ingest Browser keys are created automatically when NewRelic account is created,
+  # can be copied from the corresponding account: https://onenr.io/08wo1vYxpjx
+  # pulumi config set --secret infrastructure:newrelicOrigBrowserKey <value>
+  infrastructure:newrelicOrigBrowserKey:
+    secure: <encrypted value>
+
+  # pulumi config set --secret infrastructure:newrelicOrigIngestKey <value>
+  infrastructure:newrelicOrigIngestKey:
+    secure: <encrypted value>
+
+  # the NewRelic used ID is the same across all accounts, leave it as it is
+  infrastructure:newrelicUserId: "1002656043"
+
+  # slackDevOpsWebhook value is the same across all NewRelic stacks, decrypt it from some other stack:
+  # pulumi -s newrelic-vetInsight config --show-secrets | grep slackDevOpsWebhook
+  # and add to the secrets for the stack you're adding:
+  # pulumi config set --secret infrastructure:slackDevOpsWebhook <decrypted webhook value>
+  infrastructure:slackDevOpsWebhook:
+    secure: <encrypted value>
+
+  # Here we'll need to use the global Account Wide Devops User API key to create a per-NewRelic-Account key
+  # - Get the value from `global` stack secrets:
+  # pulumi --cwd=../global -s global stack --show-secrets | grep NEW_RELIC_DEVOPS_USER_KEY
+  # - set NEW_RELIC_API_KEY environmental variable:
+  # export NEW_RELIC_API_KEY=<decrypted aws:ssm/parameter:Parameter NEW_RELIC_DEVOPS_USER_KEY value>
+  # - manually run `pulumi up`, this will create Pulumi-managed NewRelic API `USER`-type key in NewRelic https://onenr.io/08wpL2lpZwO
+  # - reveal the key from stack outputs:
+  # pulumi stack output --show-secrets | grep newRelicUserKey
+  # - add freshly created per-account key to newrelic:apiKey secret
+  # pulumi config set --secret newrelic:apiKey <value from NewRelic>
+  newrelic:apiKey:
+    secure: <encrypted value>

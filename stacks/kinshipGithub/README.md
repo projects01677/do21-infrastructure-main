@@ -1,0 +1,1 @@
+`github:token` is the `do21-infra-repo` personal access token from the GitHub user `whistle-ci`.

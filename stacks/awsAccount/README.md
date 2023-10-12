@@ -1,0 +1,1 @@
+When creating a new AWS Account you may run into the error `Your account is not signed up for the S3 service.` since AWS asynchronously assigns account permissions after account creation. Just rerun `pulumi up` if this happens.

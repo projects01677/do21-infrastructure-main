@@ -1,0 +1,5 @@
+secretsprovider: awskms://alias/pulumi-devops-infra
+encryptedkey: AQICAHjGDO5OykPp7m5PincF0COn09ybD1NwUuQB0kvbuKRxxAFPovJH3TDGgvSgJQvyHvjjAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMeHtsTDVGIRjRpxIaAgEQgDulDKOWae6wWZEtU4010lhhW/VLQUBaE7Q2gvAkIf9+zjiEsN4sHmZ0yI4NLhdaL4Xb6RmwBSXteL9oJg==
+config:
+  aws:region: us-east-1
+  infrastructure:account: kinshipDataPlatform

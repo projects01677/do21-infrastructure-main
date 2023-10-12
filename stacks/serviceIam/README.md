@@ -1,0 +1,1 @@
+These Pulumi Projects contain service users for applications that must interact with AWS resources.

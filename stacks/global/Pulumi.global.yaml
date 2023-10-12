@@ -1,0 +1,25 @@
+secretsprovider: awskms://alias/pulumi-devops-infra
+encryptedkey: AQICAHjGDO5OykPp7m5PincF0COn09ybD1NwUuQB0kvbuKRxxAHTB+bQdg8THTXCRH7ALUyMAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMoeS4MDBiPe4OhsvtAgEQgDsexuyGt/i8aC84N08MWZue3Jq/NXObU3vzOkMnDS7owMvC8qIzUGp6ThUDGWltz3+KZ7l13UtWeg5ETQ==
+config:
+  aws:allowedAccountIds:
+  - "419697633145"
+  aws:region: us-east-1
+  infrastructure:AAP_NEW_RELIC_LICENSE_KEY:
+    secure: v1:TZKGCePVHgQ6ItAr:1jNywsXdz5d3d1ZfUtZpAoiQtTs7ma36v12o//oMPMdDAG3GpQwO1DPGnBnI1duflulX9kmaWwo=
+  infrastructure:GOODFRIEND_NEW_RELIC_LICENSE_KEY:
+    secure: v1:UOpZoaxyKI4pvxoR:+/RWnPYAMnydZAxzUZufBrH/KxLDlh86sEMEtBMFodGDaFIP/WZHcdPHXsX2WkbNbdNYF4xCZI8=
+  infrastructure:KINSHIP_NEW_RELIC_LICENSE_KEY:
+    secure: v1:Arb9sAg72olFdVQQ:MntECMq9JVENVdvtEwql8qufOqoFglDHRRLR7M7vgDXx7/ddcNcqTDf7NFeBWUsk84oquXrMv9k=
+  infrastructure:NEW_RELIC_DEVOPS_USER_KEY:
+    secure: v1:xlhHDr+/yMejf3/t:nF7tZTcsrLkSQETkMemmPwPHANc/rtFItAsZRkmDOepzDzuox9TwAyGGB6/yY2Vl
+  infrastructure:NEW_RELIC_DEVOPS_USER_KEY_ACCT_ID: "315401"
+  infrastructure:NEW_RELIC_LICENSE_KEY:
+    secure: v1:xIzhVcZ2ZL8MePDX:GlOF4GMCV2Bi6eNG9AxRX8eTUSPxMeA61NIJRfqjE+ctqFf5vnnGyJmYZgAYOQ6zfpTvSRMdKEY=
+  infrastructure:NEW_RELIC_SLACK_ALERT_WEBHOOK:
+    secure: v1:3xt76gJZf2s/icDA:Gqv6+wPOInfwbU3jA8KZ7rhCyQdIsXOWdnm1L18JNkWeXV6xOv2Y0dRfEUVkXNfpqCzvhic0e+VHvidsZ3NQS3GD2yGSi37/ISobYGirdOLQl0iFTf8CN1wldixWuSw=
+  infrastructure:SERVER_PRODUCTION_AMQP_URL:
+    secure: v1:KPSFX8j47yWzldAX:wKcmFVv2bJGYvw9KnZg+yLHqARgHm+o5plb4b5b5vaX/zIBBo2641vXwPzgOtWmUhy3V9hOq0ym5Y0QqAoGTS+0yeGex5rbK9ZwfDoZ42p6TwcR/kLiwqr3yKhtUqcQ0hYgDJXijQahvXpXG
+  infrastructure:SERVER_STAGING_AMQP_URL:
+    secure: v1:qmvD8FWow22IjNyx:S6fpoBBBZscWxeRPt0/rRi3eoK44x7W34LlgoMTmugzOEm63Kkly5a4NRgMHmfv3WI4Y2h+/skP2M9f7EhRHK+oJ6rrVz+MmZGAOmamegn3m23GqbJVpmsbZteeGWOoPX3Ahmeh4GDY=
+  infrastructure:VETINSIGHT_NEW_RELIC_LICENSE_KEY:
+    secure: v1:+Vzujumx+KgriwLW:ki00uHtvPese4lQIXOypZu7KjuTjJ3248h/ptTq0xDbQcqiglH3potDo8u3Q6WGBu/gWJOqB36k=

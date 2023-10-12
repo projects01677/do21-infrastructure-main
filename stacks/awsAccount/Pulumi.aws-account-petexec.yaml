@@ -1,0 +1,6 @@
+secretsprovider: awskms://alias/pulumi-devops-infra
+encryptedkey: AQICAHjGDO5OykPp7m5PincF0COn09ybD1NwUuQB0kvbuKRxxAFQDcn1/44F9wme/wdIP2zVAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMl4DfCAI7ncRS2arFAgEQgDvsV8hUq4k+45ZnaFwVFCMlD2JRcPbWQS6i2SeXsssD0Kgzbkigi+UM3tUkqysjMv9HTmgO71wHKI8TtQ==
+config:
+  aws:region: us-east-1
+  infrastructure:account: PetExec
+  

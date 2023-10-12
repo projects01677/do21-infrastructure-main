@@ -1,0 +1,15 @@
+secretsprovider: awskms://alias/pulumi-devops-infra
+encryptedkey: AQICAHjGDO5OykPp7m5PincF0COn09ybD1NwUuQB0kvbuKRxxAEjOeKF3xDIGenBi6rgFGLUAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMRJhQVUsO0vIjHW2RAgEQgDtUf7vD5jSDPSgOLc0MYW6+woDHp8hA4KwHGNxnFPgFlF2C+tmh3qnkObWD92AO7Hju0Nu19EkoLG0mSg==
+config:
+  infrastructure:newrelicAccountId: "3511404"
+  infrastructure:newrelicAccountName: PetExec
+  infrastructure:newrelicAccountRegion: US
+  infrastructure:newrelicOrigBrowserKey:
+    secure: v1:gLRoAhdI+3+UjEhe:oziO3t3r/8cE3K8uJog6z7nTkouqqLxpaaEgmx9/tcU9bFgOJVbk9A==
+  infrastructure:newrelicOrigIngestKey:
+    secure: v1:59fl+pb5znIG/IwD:68bMg5IfXpkN1L6sQ8PM2sZ0sNme/QtRgr7QqEqEHaaz9EoklpCZiX/rvvY+K2WXG4diiOBK9Ao=
+  infrastructure:newrelicUserId: "1002656043"
+  infrastructure:slackDevOpsWebhook:
+    secure: v1:d1SYEJ0vqL8fcVo4:JbziFZuqbqYCjrxM3bYoNs82jt3KeWlKRR3TE9g0r1dUjEThrPT53BoGrMSX6MLRqXV4rMY6hF55Mm5whZ9pJgelkX4BR+ifBdu/ka4gR5btKkFk3ZSY/PBEkH4pG74=
+  newrelic:apiKey:
+    secure: v1:3qB6NZrAhxyfyfwI:2RdHwk2YJ5DmbzI7I+RaOjQDh4G9TG4I6p70i/5bsgCwBS6NDU6Ua6Upmh5F+YkV

@@ -1,0 +1,18 @@
+secretsprovider: awskms://alias/pulumi-devops-infra
+encryptedkey: AQICAHjGDO5OykPp7m5PincF0COn09ybD1NwUuQB0kvbuKRxxAE08MjYXiq+sE1rJSl844mJAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQM7Rd1MFUjIyhNLod6AgEQgDsgAMjXMQb3Q+DXvGKX0FuVHGIRafXAHPJ0T37Axs8T8BPV//ZIKouOPEyxNJRzMDVTHJQl6VvtKNGkxw==
+config:
+  aws:allowedAccountIds:
+  - "419697633145"
+  aws:region: us-east-1
+  infrastructure:newrelicAccountId: "3511214"
+  infrastructure:newrelicAccountName: VetInsight
+  infrastructure:newrelicAccountRegion: US
+  infrastructure:newrelicOrigBrowserKey:
+    secure: v1:Jf+tfHR+0F8l8E5n:WAZkz33iNKNXMuuNgNSK313Lcp0GEceTCJ0UuO3QWylE9icMNmjp/g==
+  infrastructure:newrelicOrigIngestKey:
+    secure: v1:duh7y2cvt6qJNr/C:3QxrRYdnZFJ6llouZ5i65WJrHqf7tTjOMI3TkTegeNCh01UhFDP2RDkSsKDTWMIBKN7EHSPfURo=
+  infrastructure:newrelicUserId: "1002656043"
+  infrastructure:slackDevOpsWebhook:
+    secure: v1:6SNFdbWOK1zUgd94:VeyLjE0Hm3dQEVHsKDfc5Lh7UvTZ5Sw4QWsJxBkWrUVi02VPQdVmZhkDinBwX9Zg+w4leLy4BIFviyAnUY+sg/zAOKTWagwIM7hLtc30exKlpQbG8YVNmt4feq3E67E=
+  newrelic:apiKey:
+    secure: v1:Bzb6Ha/aSuz6nou2:Zgq/1n/sxbOJy6Eq0CgjF4cb88X+NFEIr40wF4ZhkE+VkE6GuYJTDp7WuF+pt5V2

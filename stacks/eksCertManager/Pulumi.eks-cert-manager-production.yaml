@@ -1,0 +1,7 @@
+secretsprovider: awskms://alias/pulumi-devops-infra
+encryptedkey: AQICAHjGDO5OykPp7m5PincF0COn09ybD1NwUuQB0kvbuKRxxAGlCPEHhGIPN5Fdn/C1nbvgAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMgQp3zHv5TBn6CI9jAgEQgDvBqRpOY+eOcI+heqRcXWbbyHdWd0mqzSk5qfuQ7u9gE1mSm/VUkzrt7H0I+kjFUlh+z4NEsARcvAGFng==
+config:
+  aws:allowedAccountIds:
+    - "419697633145"
+  aws:region: us-east-1
+  infrastructure:eksStackName: eks-production

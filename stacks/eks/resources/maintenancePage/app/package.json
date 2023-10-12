@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "dev": "ts-node-dev --respawn index.ts",
+    "startServer": "ts-node index.ts"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "typescript": "^4.2.4",
+    "ts-node": "^9.1.1"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.1.6",
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.37"
+  }
+}

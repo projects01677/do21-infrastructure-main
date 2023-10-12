@@ -1,0 +1,9 @@
+secretsprovider: awskms://alias/pulumi-devops-infra
+encryptedkey: AQICAHjGDO5OykPp7m5PincF0COn09ybD1NwUuQB0kvbuKRxxAG6V5ytE7cgpeXemneJvVT+AAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMeUu2wiPXYfparCtlAgEQgDstQMgNA3V2eR5UC2R4zAalrpj0i8sHZ0RyhQZNVFSSAIiNxpspKJXWXyy/llMZncHgWePGhIq+pVkN8Q==
+config:
+  aws:allowedAccountIds:
+  - "682251556248"
+  aws:assumeRole:
+    roleArn: arn:aws:iam::682251556248:role/OrganizationAccountAccessRole
+  aws:region: us-east-1
+  infrastructure:eksStackName: eks-aap-omega-production

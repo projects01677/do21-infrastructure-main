@@ -1,0 +1,6 @@
+secretsprovider: awskms://alias/pulumi-devops-infra
+encryptedkey: AQICAHjGDO5OykPp7m5PincF0COn09ybD1NwUuQB0kvbuKRxxAF8eInQ8+hz3E5shNtlSSJqAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMCXr69xowh1IE3bEBAgEQgDv9Q0et0RJe64E4F7P0EriLA7pbQY7LGOPVw3cHxQtMI5MtLHmqGsBY1xnZJoHHV8yO/IJZJ9WvKXkEig==
+config:
+  github:owner: Kinship-Partners-Inc
+  github:token:
+    secure: v1:IHHfSxtfyL+g2YWn:0r0+G+LmNU9qLOd3RVTnjfBNjckIgbyXcYJooNLCKhBMCBs6DiJoMkhN6IKvLn+omuasiVoydo0=

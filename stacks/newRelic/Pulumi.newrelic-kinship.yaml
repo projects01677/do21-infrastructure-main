@@ -1,0 +1,18 @@
+secretsprovider: awskms://alias/pulumi-devops-infra
+encryptedkey: AQICAHjGDO5OykPp7m5PincF0COn09ybD1NwUuQB0kvbuKRxxAGsfWmGylmPdYaQ0lvLJeXGAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMtFOCJXVjTm82YhrbAgEQgDvrtwG4Owlk6dY/9pFAa+rAWZVvfDFeL7TB3Ktu6AQR5vyohCBG5xzCEMMsC/a3UE5AsY3CmpROXqt/vA==
+config:
+  aws:allowedAccountIds:
+  - "419697633145"
+  aws:region: us-east-1
+  infrastructure:newrelicAccountId: "2982732"
+  infrastructure:newrelicAccountName: Kinship.co
+  infrastructure:newrelicAccountRegion: US
+  infrastructure:newrelicOrigBrowserKey:
+    secure: v1:JlXQ+yj2UKVKcqGW:gPayF5Art2DpRc42p6FJmKnOGxOI+K/w75EaCcbJEJRbop042ammJA==
+  infrastructure:newrelicOrigIngestKey:
+    secure: v1:/iO1QcKzNAVUDiYH:Ov8NOSjNaXKZhvtvKRo2fFN6OHHf6rjds+WWZOmppmQIP76FB+DjQbak0+NMkCqz89tgPMR7kOc=
+  infrastructure:newrelicUserId: "1002656043"
+  infrastructure:slackDevOpsWebhook:
+    secure: v1:voksZGDoizm7PYDh:GBdms0WVQtCFPI5Pjhwe1GgSXhzl4P5XowQcfUpup34aRv/Xpn4BKLcBZGDnytgyztX3usmzveXuOxU7jZIN/C1Nq603QTBHvIfn5DbNA0Cs/CKyHUooos+bjNa0VXg=
+  newrelic:apiKey:
+    secure: v1:E03pxBv6KxSjINA1:80nnFHdeHgtBrvCJaNQTvgdjoMkAWShQ3SUOmLfBbrrZo3BEgjR2OqXMaArVqbcp

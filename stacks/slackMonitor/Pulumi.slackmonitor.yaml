@@ -1,0 +1,8 @@
+secretsprovider: awskms://alias/pulumi-devops-infra
+encryptedkey: AQICAHjGDO5OykPp7m5PincF0COn09ybD1NwUuQB0kvbuKRxxAGVWBDpi7bgKLL5F63BnHDGAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMweyuW1vwNL8mNPm+AgEQgDvYMpk5Ci0q14K57bQHOfG46NcWMDXOkE5DXXZiOZ5AQspcFBK5ymGq9y/ikdAicX2fb2NqTNL915yqZQ==
+config:
+  infrastructure:team:
+    id: T024F586H
+    name: Kinship
+  slack:token:
+    secure: v1:IUHpTcwaq0/krE7S:cVhhwJhC8B6u4uFaRZLzcaW/czXZ/rRM1madYrvKHYV4lVoxh5LV0no0eWza2xLrCxFsJXQUm0+WueUmn8jn+kNCXP2zyg==

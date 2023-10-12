@@ -1,0 +1,10 @@
+secretsprovider: awskms://alias/pulumi-devops-infra
+encryptedkey: AQICAHjGDO5OykPp7m5PincF0COn09ybD1NwUuQB0kvbuKRxxAEeq19BML2F7xDjY3AjfeUDAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMpxGYGa3yG2DuFbPBAgEQgDscBS6RKOGGQ+bWpXDEfcKthVuSzKBpvVn+wdNizFXlZgiQb5opd9G/rv8RSAGM4Rhjqnzt/W+bhDDVXA==
+config:
+  aws:allowedAccountIds:
+  - 672673849622
+  aws:assumeRole:
+    roleArn: arn:aws:iam::672673849622:role/OrganizationAccountAccessRole
+  aws:region: us-east-1
+  infrastructure:awsAccount: vetInsight
+  infrastructure:environment: production

@@ -1,0 +1,5 @@
+secretsprovider: awskms://alias/pulumi-devops-infra
+encryptedkey: AQICAHjGDO5OykPp7m5PincF0COn09ybD1NwUuQB0kvbuKRxxAFTpyd2SBKIaMWm0I9BfrnHAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMsRc8zfqnVC8d2j+cAgEQgDsPGQtSw2FwtDKAZSCUu65MgQ38C+oS5SsBXpL6VES3j8y10sKMg5Cz6jIyCmkE59WLpM5tZ69fXE2rUQ==
+config:
+  aws:region: us-east-1
+  infrastructure:account: GoodFriend

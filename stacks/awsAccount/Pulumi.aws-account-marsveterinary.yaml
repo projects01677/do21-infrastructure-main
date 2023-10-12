@@ -1,0 +1,5 @@
+secretsprovider: awskms://alias/pulumi-devops-infra
+encryptedkey: AQICAHjGDO5OykPp7m5PincF0COn09ybD1NwUuQB0kvbuKRxxAFAD9h88FUnchNXPYOtw1oTAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMsS2rikLbtViiGBS9AgEQgDsLGeP9CTDFye6fVJEyYWszfgHQMnZoPV3ei2BSacPI+GbOtPkJGkQx6k713Ja7tY6gWf4jAZBbc2qZaQ==
+config:
+  aws:region: us-east-1
+  infrastructure:account: marsVeterinary

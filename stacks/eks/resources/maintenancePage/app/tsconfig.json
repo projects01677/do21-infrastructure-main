@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "strict": false,
+        "experimentalDecorators": true,
+        "lib": ["es2015", "dom"],
+        "pretty": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "forceConsistentCasingInFileNames": true,
+        "esModuleInterop": true
+    }
+}

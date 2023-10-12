@@ -1,0 +1,12 @@
+secretsprovider: awskms://alias/pulumi-devops-infra
+encryptedkey: AQICAHjGDO5OykPp7m5PincF0COn09ybD1NwUuQB0kvbuKRxxAHTB+bQdg8THTXCRH7ALUyMAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMoeS4MDBiPe4OhsvtAgEQgDsexuyGt/i8aC84N08MWZue3Jq/NXObU3vzOkMnDS7owMvC8qIzUGp6ThUDGWltz3+KZ7l13UtWeg5ETQ==
+config:
+  aws:allowedAccountIds:
+  - "419697633145"
+  aws:region: us-east-1
+  infrastructure:NEW_RELIC_LICENSE_KEY:
+    secure: v1:d3PkMbyqrd/Vkl03:HJU2Mx1Dtn+mwSwZbPlG+hJOFiBQH/ea7BuAKDx6WJLrkhh7dpbjiyED01gec3VTzvZzY48rGGs=
+  infrastructure:SERVER_STAGING_AMQP_URL:
+    secure: v1:q37VfoY0a45Ms0b3:/MXlMcCThJ+ms3442ptraKka8MVrKhZ4ZHVD/BOyOGGNIoVrYZSHWTApAT4cNxyx72sFnXPzq9Hsoqsg4TzmnIYXKBs7OUZr+xiDS4MbreCt3wZjJHHEItuF22VzI3S67KQvEsfErSE=
+  infrastructure:SERVER_STAGING_POSTGRES_URL:
+    secure: v1:L5r0Q+K7TZCF+Yv1:p30jroc0DuXYqXB15UUUE1IL4yW5uuhBPhidrJ6txhR4qS1m+KWTE5YRfr6iAWrHGUSNc65c+AK0a9r8k74f4dkXjjcowq1dU5Xl9U8Toi5HK3d1Mxt78bwnK4CqY+QFSa6kmYgpqe1XHAx7NP71mkrrLio1T6YjFgA0ZYcrm8A=

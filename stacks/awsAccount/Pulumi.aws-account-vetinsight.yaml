@@ -1,0 +1,5 @@
+secretsprovider: awskms://alias/pulumi-devops-infra
+encryptedkey: AQICAHjGDO5OykPp7m5PincF0COn09ybD1NwUuQB0kvbuKRxxAEx5qinM+onXWCE9kGlzKtNAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMmcRzs4fpzu8p9IylAgEQgDtzpQRGyxgVivypwWN0un71XIUvK26Y47/NOX/CMlH7qbq8i7FOtBKtAfpnLKY2C38CahG+5tIktvsyZQ==
+config:
+  aws:region: us-east-1
+  infrastructure:account: vetInsight

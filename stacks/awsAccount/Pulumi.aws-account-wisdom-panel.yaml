@@ -1,0 +1,5 @@
+secretsprovider: awskms://alias/pulumi-devops-infra
+encryptedkey: AQICAHjGDO5OykPp7m5PincF0COn09ybD1NwUuQB0kvbuKRxxAFfkRT1gwWmKpgW2TNh2H+VAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMWiWR62bwXeihs3k3AgEQgDtOfc9wga58NOtj0OM3LThWJ4xEF5aNBQMj2uRjTDRRQFBUhtx9ZStNkLtMhihr8E4RjnwQsfZsyIaSNg==
+config:
+  aws:region: us-east-1
+  infrastructure:account: wisdomPanel

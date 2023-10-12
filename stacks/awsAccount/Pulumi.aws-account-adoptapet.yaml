@@ -1,0 +1,5 @@
+secretsprovider: awskms://alias/pulumi-devops-infra
+encryptedkey: AQICAHjGDO5OykPp7m5PincF0COn09ybD1NwUuQB0kvbuKRxxAHVbuWWwrmM2cnBXBvgs9d2AAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMs3L06nBsKQVj/0kyAgEQgDsfMDDv4m1JcLaYQyw35s29qEOhtjdhHaBlKAPF8rBGvPThgF2JqLszYQfgk2FiB393M2R3MbuJSl+EbQ==
+config:
+  aws:region: us-east-1
+  infrastructure:account: adoptapet

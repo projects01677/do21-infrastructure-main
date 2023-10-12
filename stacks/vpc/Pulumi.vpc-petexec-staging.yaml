@@ -1,0 +1,10 @@
+secretsprovider: awskms://alias/pulumi-devops-infra
+encryptedkey: AQICAHjGDO5OykPp7m5PincF0COn09ybD1NwUuQB0kvbuKRxxAF/x8I2VsUDP09f4wO5SlD+AAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMreFbAZJkvG7Qa7TIAgEQgDvER5Dbn5SpmtgFCaTOQ+cN/B1J/te0UB/5DLrotDDdKtBIPiWiz3bwGC0rTZv+B9Eu5DEYIgDV3IZesg==
+config:
+  aws:allowedAccountIds:
+  - 784077888162
+  aws:assumeRole:
+    roleArn: arn:aws:iam::784077888162:role/OrganizationAccountAccessRole
+  aws:region: us-east-2
+  infrastructure:awsAccount: PetExec
+  infrastructure:environment: staging

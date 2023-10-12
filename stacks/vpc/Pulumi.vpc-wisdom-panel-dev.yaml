@@ -1,0 +1,13 @@
+secretsprovider: awskms://alias/pulumi-devops-infra
+encryptedkey: AQICAHjGDO5OykPp7m5PincF0COn09ybD1NwUuQB0kvbuKRxxAGvAIxdBv3bmntVnRVmTQLWAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMc9wFuvyK47qfiRHJAgEQgDuKZ4ex7AF+Fzul5N1/MfC8c9bJo9q4UB+IQ4OojWgUym/J029Ewnr7FjeI6E+Sy3EW1inV4gpIRziRGg==
+config:
+  aws:allowedAccountIds:
+  - 561064958971
+  aws:assumeRole:
+    roleArn: arn:aws:iam::561064958971:role/OrganizationAccountAccessRole
+  aws:region: us-east-1
+  infrastructure:awsAccount: wisdomPanel
+  infrastructure:cird: 10.140.0.0/16
+  infrastructure:environment: dev
+  infrastructure:masterpassword:
+    secure: v1:SCXJxs1x0/WUPtZw:aWzWX3Zi4xXcvf7363RF/3oaGW4IFwC0NBFMUOnqQhIMdwg=

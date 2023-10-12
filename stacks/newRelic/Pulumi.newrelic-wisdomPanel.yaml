@@ -1,0 +1,15 @@
+secretsprovider: awskms://alias/pulumi-devops-infra
+encryptedkey: AQICAHjGDO5OykPp7m5PincF0COn09ybD1NwUuQB0kvbuKRxxAEiFf2Q9x/huq/xzUX1u1brAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMZ+UQdcU+WUvx59uMAgEQgDsKYo3XXWiW+CKd7LKxqRnQjBynXlsQey67DVb11euWRKvpmnMTKgx6l3c2f4PzVoavQJ0N2O9vVhM5gQ==
+config:
+  infrastructure:newrelicAccountId: "3511205"
+  infrastructure:newrelicAccountName: WisdomPanel
+  infrastructure:newrelicAccountRegion: US
+  infrastructure:newrelicOrigBrowserKey:
+    secure: v1:Je8KCqZF+8yTvxsu:m84ZZSBkUsnRwJrMFgzjeD8SphWY5HyDiTK/dBF3brBRikv2IyfKCw==
+  infrastructure:newrelicOrigIngestKey:
+    secure: v1:tuKxsDNvlU6wJAc4:9zJpJvoNIISqpB/BG7aittxTcIi6HV8uOoCMBAB9v53ICMCRqoyR0qaYVSYs/UbyKy435VhUupc=
+  infrastructure:newrelicUserId: "1002656043"
+  infrastructure:slackDevOpsWebhook:
+    secure: v1:XvaJbtF4TTqc6O/1:5fD1028N1T5qjS8Uta47I80WMVJxkRHvq8CEK6Yd9BZLUj8lTp7PNGrpz7WHy6UlhCzQfp2xdeXzLYB9YDQxoqf85h01OkpKEagE82WwsDhlOT/xRXCd4C2RMOgG6gA=
+  newrelic:apiKey:
+    secure: v1:8GKu5L9Ql0LoYN74:nQ23DknOZZuZM/7J9zsZZsZphtosJ8JJDdQsV2aSkynpGDbgLwxWLJYK+ZhGGHQs

@@ -1,0 +1,23 @@
+secretsprovider: awskms://alias/pulumi-devops-infra
+encryptedkey: AQICAHjGDO5OykPp7m5PincF0COn09ybD1NwUuQB0kvbuKRxxAHxtJNYeRoIwjnm55FwlRicAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMoZHiCyySfinfUNeZAgEQgDvlA9E8K6zwwckaPIjOF2tvscBdW3sGnPrjySevARcrPWUQgoq8jWHpuPMflInPyF1m1OGHhhjR00VKLA==
+config:
+  aws:allowedAccountIds:
+  - "419697633145"
+  aws:region: us-east-1
+  infrastructure:environment: staging
+  infrastructure:rds_role_airbyte_password:
+    secure: v1:IOuKRaEwXuUGdMM2:O5DaiyBKji44w8kOqKAgJ7sCb10pzeObeBl8m0DDA5Pjkz8W0pTh3Q==
+  infrastructure:rds_role_logfiles_password:
+    secure: v1:JeVEaE4f81V1RQp/:VzkZNeL+Dpfjlf+wwL+8/NnHeV1Eu/MDeqGyTWmxWr967MXSJKVlUKAWqZZ+pvDS
+  infrastructure:rds_role_server_heavy_worker_password:
+    secure: v1:qKBewdnDD8oRnDfL:7EyZhlcL7hLSZAXa57YUgals2ngFHN2wGGzhINAOF0x78F1pkju5
+  infrastructure:rds_role_server_high_worker_password:
+    secure: v1:AdrBsgnwzx/W66IB:Rj2AcZcRbnJn2B457tx6o6EDXEg8nQmUK2POjVbNju7cZQk=
+  infrastructure:rds_role_server_low_worker_password:
+    secure: v1:tjLt+OgMxe1twW9s:yee+d7X2jKunBhdgxe8IRNZ47DQMXMFGniZHzvfHKhQ=
+  infrastructure:rds_role_server_scheduler_password:
+    secure: v1:laH9NZgtQOsx5zGs:1SlDspdPt1faeZwEanNaELLuIrlzEaYEkIyRsVvgQ/kPNwQke/c=
+  infrastructure:rds_role_server_serial_worker_password:
+    secure: v1:3cg+7bz6QTwGwwYI:CPVpydYmmy5FWyXSPnzZ1Jf4gZ3gRyjuXOQ/Dl2bW0gm1WMw
+  infrastructure:rds_role_server_web_password:
+    secure: v1:Ourf49YtbTFVcclh:a+M3JUoMMjsr3JITCHY4YyuVn53N1qXwWxYJnJ0RDYZvs13H5Q==

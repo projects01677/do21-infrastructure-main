@@ -1,0 +1,10 @@
+secretsprovider: awskms://alias/pulumi-devops-infra
+encryptedkey: AQICAHjGDO5OykPp7m5PincF0COn09ybD1NwUuQB0kvbuKRxxAEwLEzCqB4DzDcTSnF7OkN6AAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMkWNXYQTT9QBUlQ/cAgEQgDvbCEWp1L4aUUhZXFk6euO+Cxu9LmdiOogTJBogvTLEP6fwArwXemgCbF3w8ff6V+PABydtwrUH3kFf+A==
+config:
+  aws:allowedAccountIds:
+  - "575036886166"
+  aws:assumeRole:
+    roleArn: arn:aws:iam::575036886166:role/OrganizationAccountAccessRole
+  aws:region: us-east-1
+  infrastructure:eksStackName: eks-kinship-shared-services-production
+  infrastructure:kongIngressName: kong
